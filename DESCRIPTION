@@ -11,11 +11,13 @@ Authors@R: c(
     person("Christophe", "Giraud", 
            role = "aut")
     )
+Maintainer: Xi (Rossi) LUO <xi.rossi.luo@gmail.com>
+Author: Xi (Rossi) LUO [aut, cre], Florentina Bunea [aut], Christophe Giraud [aut]
 Description: Partitions data points (variables) into communities/clusters, 
     similar to clustering algorithms such as k-means and hierarchical 
     clustering. This package implements a clustering algorithm based on a new 
     metric CORD, defined for high-dimensional parametric or semiparametric 
-    distributions. For more details see Bunea et al. (2020) 
+    distributions. For more details see Bunea et al. (2020), Annals of Statistics 
     <doi:10.1214/18-AOS1794>.
 License: GPL-3
 URL: https://doi.org/10.1214/18-AOS1794
