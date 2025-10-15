@@ -47,5 +47,5 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
-src/cordDist.o
-src/RcppExports.o
+src/*.o
+
