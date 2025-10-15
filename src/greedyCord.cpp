@@ -26,10 +26,12 @@ arma::uvec greedyCord(arma::mat v02129bb861061d1a052c592e2dc6b383,
                                           v3691308f2a4c2f6983f2880d32e29c84);
     arma::uword e48711dee325da37713a959d9f9b10f5,
         v4eae90b69d71773f9a86d95169593da3;
+    arma::uword minIndex = v69691c7bdcc3ce6d5d8a1361f22d04ac.index_min();
+    arma::ind2sub(arma::size(v69691c7bdcc3ce6d5d8a1361f22d04ac), minIndex,
+                  e48711dee325da37713a959d9f9b10f5,
+                  v4eae90b69d71773f9a86d95169593da3);
     double v843a28dfdc5b2d5463ba2a7b83fdec7c =
-        v69691c7bdcc3ce6d5d8a1361f22d04ac.min(
-            e48711dee325da37713a959d9f9b10f5,
-            v4eae90b69d71773f9a86d95169593da3);
+        v69691c7bdcc3ce6d5d8a1361f22d04ac(minIndex);
     bool v3737742d27522b3e8913f2ae1e52454e =
         v843a28dfdc5b2d5463ba2a7b83fdec7c <= v4580c2740ab6d9222ef06d7c6865583e;
     if (v728fa97a6bea8eee114d6eb53a75b06d % (0x18d4 + 2460 - 0x1e88) ==
