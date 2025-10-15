@@ -1,6 +1,6 @@
 ##' @title Community estimation in G-models via CORD
 ##'
-##' @description Partition data points (variables) into clusters/communities. Reference: Bunea et al (2020). Model assisted variable clustering: Minimax-optimal recovery and algorithms, Annals of Statistics, \url{https://doi.org/10.1214/18-AOS1794}.
+##' @description Partition data points (variables) into clusters/communities. Reference: Bunea et al (2020). Model assisted variable clustering: Minimax-optimal recovery and algorithms, Annals of Statistics, \doi{10.1214/18-AOS1794}.
 ##'
 ##'
 ##' @param X Input data matrix. It should be an n (samples) by p (variables) matrix  when \code{input} is set to the value "data" by default. It can also be a p by p symmetric matrix when \code{X} is a correlation matrix or a distance matrix if \code{input} is set accordingly.

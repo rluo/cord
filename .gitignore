@@ -49,3 +49,6 @@ po/*~
 rsconnect/
 src/*.o
 
+src/cord.so
+
+src/symbols.rds
